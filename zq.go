@@ -5,12 +5,13 @@
 package dm
 
 import (
-	"dm/util"
 	"fmt"
 	"math"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/wangzhaobo168/dm/util"
 )
 
 const (
@@ -132,7 +133,7 @@ const (
 
 	Dm_build_673 int32 = 0xFFFE - 3
 
-	Dm_build_674 int32 = 0XFFFE - 4
+	Dm_build_674 int32 = 0xFFFE - 4
 
 	Dm_build_675 int32 = 0xFFFE
 

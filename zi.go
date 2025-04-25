@@ -6,12 +6,13 @@ package dm
 
 import (
 	"bytes"
-	"dm/util"
 	"io"
 	"math/big"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/wangzhaobo168/dm/util"
 )
 
 var G2DB g2db

@@ -6,10 +6,11 @@ package dm
 
 import (
 	"database/sql/driver"
-	"dm/util"
 	"math"
 	"strconv"
 	"strings"
+
+	"github.com/wangzhaobo168/dm/util"
 )
 
 const (

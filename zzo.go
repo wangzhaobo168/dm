@@ -5,8 +5,9 @@
 package dm
 
 import (
-	"dm/util"
 	"strconv"
+
+	"github.com/wangzhaobo168/dm/util"
 )
 
 const (

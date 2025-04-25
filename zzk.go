@@ -6,10 +6,12 @@ package dm
 
 import (
 	"bytes"
-	"dm/parser"
-	"dm/util"
 	"strconv"
 	"strings"
+
+	"github.com/wangzhaobo168/dm/util"
+
+	"github.com/wangzhaobo168/dm/parser"
 )
 
 func (dc *DmConnection) lex(sql string) ([]*parser.LVal, error) {

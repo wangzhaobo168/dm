@@ -8,9 +8,10 @@ import (
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"dm/i18n"
 	"net"
 	"sync"
+
+	"github.com/wangzhaobo168/dm/i18n"
 )
 
 // 发版标记
@@ -38,7 +39,7 @@ func driverInit(svcConfPath string) {
 
 type DmDriver struct {
 	filterable
-	mu           sync.Mutex
+	mu sync.Mutex
 	//readPropMutex sync.Mutex
 }
 
