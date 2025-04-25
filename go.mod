@@ -1,8 +1,8 @@
 module github.com/wangzhaobo168/dm
 
-go 1.13
+go 1.23.4
 
 require (
-	github.com/golang/snappy v0.0.1
-	golang.org/x/text v0.3.2
+	github.com/golang/snappy v1.0.0
+	golang.org/x/text v0.24.0
 )
